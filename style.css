@@ -52,10 +52,12 @@ nav a:hover {
 
 .left {
     background-color: #f7f7f7;
+    float:left;
 }
 
 .right {
     background-color: #fff;
+    float:right;
 }
 
 h2 {
