@@ -52,12 +52,12 @@ nav a:hover {
 
 .left {
     background-color: #f7f7f7;
-    float:left; width:40%;
+    float:left;
 }
 
 .right {
     background-color: #fff;
-    float:right; width:60%;
+    float:right;
 }
 
 h2 {
