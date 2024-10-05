@@ -1,53 +1,23 @@
-Конечно, вот пример кода для красивой двухколоночной странички с обтекающим рисунком:
-
-```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Двухколоночная страничка</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        display: flex;
-        justify-content: center;
-    }
-    .content {
-        max-width: 800px;
-        padding: 20px;
-    }
-    .image {
-        float: left;
-        margin-right: 20px;
-    }
-    .text {
-        text-align: justify;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Двухколонная страница</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-    <div class="content">
-        <div class="image">
-            <img src="123.jpg" alt="Рисунок">
+    <div class="container">
+        <div class="column left">
+            <h2>Левая колонка</h2>
+            <p>Текст левой колонки</p>
+            <img src="left-image.jpg" alt="Левая картинка">
         </div>
-        <div class="text">
-            <h1>Заголовок</h1>
-            <p>Текст...</p>
-            <p>Текст...</p>
-            <p>Текст...</p>
+        <div class="column right">
+            <h2>Правая колонка</h2>
+            <p>Текст правой колонки</p>
+            <img src="right-image.jpg" alt="Правая картинка">
         </div>
     </div>
-</div>
-
 </body>
 </html>
-```
-
-Замените ссылку на рисунок в теге `<img>` на свою собственную. В данном примере рисунок обтекает текст слева, но вы можете поменять его направление, задав другие свойства CSS.
