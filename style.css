@@ -64,11 +64,13 @@ nav a:hover {
 .left {
     background-color: #ff69b4; /* pink */
     color: #fff;
+    float: left;
 }
 
 .right {
     background-color: #34c759; /* green */
     color: #fff;
+    float: right;
 }
 
 h2 {
